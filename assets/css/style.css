@@ -10,11 +10,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
 body{
-    font-family: "Poppins" sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: #a4c2d1; /*egg blue*/
 }
 h1, h2{
-    font-family: "DM Serif Display" serif;
+    font-family: "DM Serif Display", serif;
     color: #184f63; /*dark-blue*/
 }
 /* About */
@@ -29,6 +29,12 @@ h1, h2{
     color: #1f7798; /*mid blue */
     font-size: 1.2rem;
 }
+#portfolio .btn-outline-secondary:hover{
+    background-color: #1f7798; /*mid blue */
+}
+#portfolio .card-text{
+    min-height: 120px;
+}
 /* Contract */
 #contact {
     background-color: white;
@@ -40,4 +46,9 @@ h1, h2{
     background-position: 50% 70%;
     min-height: 500px;
     padding: 5% 7%;
+}
+@media screen and (min-width: 1200px) {
+    #portfolio .card-text{
+        min-height: auto;
+    }
 }
