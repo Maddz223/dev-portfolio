@@ -50,6 +50,14 @@ h1, h2{
 .sharp-corners, .sharp-corners * {
     border-radius: 0;
 }
+.button-style{
+    background-color: #1f7798;
+    border: #1f7798;
+}
+.button-style:hover{
+    background-color: #1d6d8a;
+    border: #1d6d8a;
+}
 @media screen and (min-width: 1200px) {
     #portfolio .card-text{
         min-height: auto;
