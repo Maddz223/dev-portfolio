@@ -47,6 +47,9 @@ h1, h2{
     min-height: 500px;
     padding: 5% 7%;
 }
+.sharp-corners, .sharp-corners * {
+    border-radius: 0;
+}
 @media screen and (min-width: 1200px) {
     #portfolio .card-text{
         min-height: auto;
